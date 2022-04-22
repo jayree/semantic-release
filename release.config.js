@@ -19,7 +19,7 @@ module.exports = {
     '@semantic-release/npm',
     {
       path: '@semantic-release/git',
-      assets: ['package.json', 'CHANGELOG.md', 'README.md', 'docs', 'oclif.manifest.json'],
+      assets: ['package.json', 'CHANGELOG.md', 'README.md', 'docs'],
     },
     script('postversion'),
   ],
